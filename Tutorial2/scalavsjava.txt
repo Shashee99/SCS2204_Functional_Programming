@@ -1,0 +1,8 @@
+
+        Scala                                                           Java
+        
+        * No static members                         			* Contains static members 
+        * Code is written in a compact form				* Code is written in long-form. 
+	* uses an actor model for supporting modern concurrency         * follows conventional thread-based model for concurrency
+        * In scala operator overloading is supported                    * operator overloading is not supported
+        * Scala does not support backward compatibility                 * Backward compatibility is supported
