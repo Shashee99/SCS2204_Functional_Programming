@@ -1,5 +1,3 @@
-package Tutorial3
-
 object question1 extends App {
   def Area_of_disk(r:Double):Double={
     return math.Pi*r*r;

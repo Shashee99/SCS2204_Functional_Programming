@@ -1,5 +1,3 @@
-package Tutorial3
-
 object question5 {
 
   def easyPace(km:Int):Int=km*8;

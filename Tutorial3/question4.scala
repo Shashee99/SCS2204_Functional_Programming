@@ -1,5 +1,3 @@
-package Tutorial3
-
 object question4 {
 
   def bookPrice(amount:Double):Double=amount*24.95;

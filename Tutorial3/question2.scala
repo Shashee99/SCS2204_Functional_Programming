@@ -1,5 +1,3 @@
-package Tutorial3
-
 object question2 extends App {
 
   def Temp_in_Fahrenheit(celcius:Double):Double = {
