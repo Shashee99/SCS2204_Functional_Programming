@@ -3,7 +3,7 @@ object question3 {
   val toLower = (x: String) => x.toLowerCase()
 
 
-  def formatNames(name: String)(indexList:Int*)(fun: (String) => String) = {
+  def formatNames(name: String)(indexList:Int*)(fun: (String) => String):String = {
     if (indexList.isEmpty) {
       fun(name)
     }
