@@ -15,7 +15,7 @@ object question2 extends App {
   def primeseq(n: Int): Any ={
     if (n<2) return false;
     else{
-      if (prime(n)) print(n + ", ")
+      if (prime(n)) print(n + " ")
       primeseq(n-1)
     }
 

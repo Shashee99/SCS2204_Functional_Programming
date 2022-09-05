@@ -7,7 +7,7 @@ object question6 extends App {
 
   def fibonacciSeq(n: Int): Any = {
     if (n > 0) fibonacciSeq(n - 1)
-    print(fibonacci(n) + " ")
+    println(fibonacci(n))
   }
 
   fibonacciSeq(10)
