@@ -6,7 +6,7 @@ object q2 extends App {
   val y = new Rational(5,8);
   val z = new Rational(2,7);
   val res1 = x.sub(y).sub(z);  //first method
-  val res2 = x-y-z;           //seccond method
+  val res2 = x-y-z;           //second method
 
 
   println(res1)
